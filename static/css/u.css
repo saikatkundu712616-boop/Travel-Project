@@ -1,0 +1,103 @@
+.navbar {
+    box-shadow: 0 4px 10px rgba(192, 5, 5, 0.2);
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #961010 !important;
+    transition: 0.3s;
+}
+/* Background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #5f9cff, #8fd3f4);
+    margin: 0;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Input fields */
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 8px rgba(13,110,253,0.3);
+    outline: none;
+}
+
+/* Button */
+.registerbtn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: #0d6efd;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.registerbtn:hover {
+    background: #084298;
+    transform: scale(1.03);
+}
+
+/* Terms text */
+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Signin section */
+.signin {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

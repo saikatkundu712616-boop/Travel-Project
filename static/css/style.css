@@ -1,0 +1,109 @@
+.navbar {
+    box-shadow: 0 4px 10px rgba(71, 196, 107, 0.953);
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #a5d3e9 !important;
+    transition: 0.3s;}
+/* Page background */
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar customization */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Brand styling */
+.navbar-brand {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/* Nav links hover effect */
+.navbar-nav .nav-link {
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e0e4e5 !important;
+}
+
+/* Register button */
+.navbar .btn {
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Search form styling */
+form {
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Search label */
+form label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Search input */
+form input[type="search"] {
+    width: 300px;
+    max-width: 90%;
+    padding: 10px;
+    border: 2px solid #14e05c;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input[type="search"]:focus {
+    border-color: #0aca5d;
+    box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
+}
+
+/* Search button */
+form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #0a58ca;
+}
+
+/* Responsive improvement */
+@media (max-width: 576px) {
+    form input[type="search"] {
+        width: 100%;
+    }
+}
+.username-text {
+    color: white;
+    background-color: #007bff;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 30px auto;
+    font-size: 28px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
